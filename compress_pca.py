@@ -68,7 +68,7 @@ def render_list(list1, list2, n=None):
 
 
 if __name__ == '__main__':
-    data = 2.5 * (2 * np.random.rand(100, 256) - 1)     # 随机data生成数据
+    data = 2.5 * (2 * np.random.rand(1000, 256) - 1)     # 随机data生成数据
     random_indices = [random.randint(0, len(data) - 1) for _ in range(50)]
     query = data[random_indices]                        # 随机query生成数据
 
